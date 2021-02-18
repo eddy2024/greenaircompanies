@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color: #005266;
+    color:#0A290A;
+    text-align:center;
+    padding:5px;
+}
+
+
+#nav {
+    line-height:30px;
+    background-color:silver;
+    height:700px;
+    width:150px;
+    float:left;
+    padding:5px
+    text-color:black;
+    font-size:10px;
+}
+#section{
+     background-color:none ;
+     width:350px;
+     float:left;
+     padding:10px;
+     font-family:Helvetica;
+     font-size:11px;
+     text-align:justify;
+     color:#005266;
+     
+}
+#footer{
+     background-color:none;
+     color:white;
+     clear:both;
+     text-align:center;
+     padding:5px;
+     font-size:10px;
+
+}
+nav ul {margin:0; padding:0;background-colour:}
+nav ul li {display:inline; margin:5px;color:white;font-size:12px;}
+h3{
+  color:white;font-size:12px;}
+
+form{color: #005266;font-size:12px;}
+</style>
+</head>
+
+
+<body style="background-color:black" text-color:black">
+
+
+<div id="header">
+<fieldset>
+
+
+<h1>GREEN AIR IT TRAINING CENTER</h1>
+<fieldset>
+</div>
+
+
+
+
+<nav>
+
+<ul>
+<li>We  conduct training in the following Certifications:
+   <a href="http://cisco.com" target="_blank">Cisco</a>
+  <li><a href="http://comptia.org" target="_blank">CompTIA</a></li>
+  <li><a href="http://isaca.org" target="_blank">ISACA</a></li>
+  <li><a href="http://microsoft.com/training/certification" target="_blank">Microsoft</a></li>
+<li><a href="http://w3schools.com" target="_blank"> Web Develop </a></li>
+<li><a href="http://www.cwnp.com" target="_blank">Wireless</a></li>
+<li>Career Advice:
+<li><a href="http://www.edx.org" target="_blank">Edx</a></li>
+<li><a href="http://alison.com" target="_blank">Alison</a></li>
+<li><a href="http://coursera.com" target="_blank">Coursera</a></li>
+
+</ul>
+
+</nav>
+
+
+
+<h2></h2>
+<img src="dscn6065.jpg" alt="Fire" style="width:250px;height:150px">
+<img src="dscn5738.jpg" alt="Training Session" style="width:250px;height:150px">
+<img src="dscn5770.jpg" alt="Training Room" style="width:250px;height:150px">
+<img src="dscn5821.jpg" alt="Training Room" style="width:250px;height:150px">
+
+
+<br>
+
+
+
+
+<div id="section">
+<h3>WHO ARE WE</h3>
+<p>
+We are aspiring to become a leading training centre in Information Technology IT in the following vendor certifications: Cisco, Microsoft, ISACA, ISC2, CompTIA, Wireless and others.</p>
+
+<p>This company is established to train and equip<br>young professionals meet the challenging needs of IT AGE.
+We are well prepared to assist you achieve your utmost ambition.We understand and well versed in delivering our job.</p>
+</div>
+
+<div id="section">
+<h3 style="text-align:justify">WHAT WE STAND FOR</h3>
+<p>
+We have strong background to breath into you an industry certified technology - that is a life long career. We have researched into IT certification that last and needed everywhere 
+and solves problems of the corporate environment.</p>
+
+<p>We are waiting for your call so you can begin your training. </p>
+
+</div>
+
+<form>
+<h3>TRAINING SCHEDULE</h3>
+Week days from Monday to Friday:<br>
+Morning Sessions  :9.00 am - 12.00 noon<br>
+Afternoon sessions:2.00 pm -  5.00 pm<br>
+Evening Sessions  :5.30 pm -  7.30 pm<br></form>
+
+<article>
+<h4 href="http://www.businessghana.com/jobs">Businessghana </h4>
+<p>This is a website that advertises jobs</p>
+</article>
+
+
+
+<p id="demo">Click the button to get your position.</p>
+
+<button onclick="getLocation()">Click here</button>
+
+<div id="mapholder"></div>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&sensor=false";
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+</script>
+
+
+
+ 
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<div id="footer">
+Copyright © 2015 | Green Air IT Training Centre | Email: info@greenairit.com | Telephone: +233 244-646-214 | Location: Near Kata Hostel, off the George Bush high way from lapaz to kwashieman
+</div>
+
+</body>
+</html>

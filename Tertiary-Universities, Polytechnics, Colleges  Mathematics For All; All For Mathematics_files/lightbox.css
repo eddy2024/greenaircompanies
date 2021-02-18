@@ -1,0 +1,216 @@
+#lightbox {
+	left: 0px; top: 40px; width: 100%; text-align: center; line-height: 0; position: absolute; z-index: 100;
+}
+#lightbox a img {
+	border: currentColor; border-image: none;
+}
+#outerImageContainer {
+	margin: 0px auto; width: 250px; height: 250px; overflow: hidden; position: relative; min-width: 240px; background-color: rgb(255, 255, 255);
+}
+#imageContainer {
+	padding: 10px;
+}
+#frameContainer {
+	padding: 10px;
+}
+#modalContainer {
+	padding: 10px;
+}
+#modalContainer {
+	line-height: 1em; overflow: auto;
+}
+#loading {
+	left: 45%; top: 40%; width: 100%; height: 25%; text-align: center; line-height: 0; position: absolute;
+}
+#hoverNav {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 10;
+}
+#imageContainer > #hoverNav {
+	left: 0px;
+}
+#frameHoverNav {
+	width: 20%; height: 45px; bottom: 0px; margin-right: auto; margin-left: auto; position: absolute; z-index: 10;
+}
+#imageData > #frameHoverNav {
+	left: 0px;
+}
+#hoverNav a {
+	
+}
+#frameHoverNav a {
+	
+}
+#prevLink {
+	background: url("../images/blank.gif") no-repeat; width: 49%; height: 100%; display: block;
+}
+#nextLink {
+	background: url("../images/blank.gif") no-repeat; width: 49%; height: 100%; display: block;
+}
+#prevLink {
+	left: 0px; float: left;
+}
+#framePrevLink {
+	left: 0px; float: left;
+}
+#nextLink {
+	right: 0px; float: right;
+}
+#frameNextLink {
+	right: 0px; float: right;
+}
+#prevLink:hover {
+	background: url("../images/prev.gif") no-repeat left 15%;
+}
+#prevLink:hover:visited {
+	background: url("../images/prev.gif") no-repeat left 15%;
+}
+.force_show_nav#prevLink {
+	background: url("../images/prev.gif") no-repeat left 15%;
+}
+#framePrevLink {
+	background: url("../images/prev.gif") no-repeat left 15%;
+}
+#nextLink:hover {
+	background: url("../images/next.gif") no-repeat right 15%;
+}
+#nextLink:hover:visited {
+	background: url("../images/next.gif") no-repeat right 15%;
+}
+.force_show_nav#nextLink {
+	background: url("../images/next.gif") no-repeat right 15%;
+}
+#frameNextLink {
+	background: url("../images/next.gif") no-repeat right 15%;
+}
+.force_show_nav#prevLink:hover {
+	background: url("../images/prev_hover.gif") no-repeat left 15%;
+}
+.force_show_nav#prevLink:hover:visited {
+	background: url("../images/prev_hover.gif") no-repeat left 15%;
+}
+#framePrevLink:hover {
+	background: url("../images/prev_hover.gif") no-repeat left 15%;
+}
+#framePrevLink:hover:visited {
+	background: url("../images/prev_hover.gif") no-repeat left 15%;
+}
+.force_show_nav#nextLink:hover {
+	background: url("../images/next_hover.gif") no-repeat right 15%;
+}
+.force_show_nav#nextLink:hover:visited {
+	background: url("../images/next_hover.gif") no-repeat right 15%;
+}
+#frameNextLink:hover {
+	background: url("../images/next_hover.gif") no-repeat right 15%;
+}
+#frameNextLink:hover:visited {
+	background: url("../images/next_hover.gif") no-repeat right 15%;
+}
+#framePrevLink {
+	width: 45px; height: 45px; bottom: 0px; display: block; position: absolute;
+}
+#frameNextLink {
+	width: 45px; height: 45px; bottom: 0px; display: block; position: absolute;
+}
+#imageDataContainer {
+	font: 10px/1.4em Verdana, Helvetica, sans-serif; margin: 0px auto; min-width: 240px; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+#imageData {
+	padding: 0px 10px;
+}
+#imageData #imageDetails {
+	width: 70%; text-align: left; float: left;
+}
+#imageData #caption {
+	font-weight: bold;
+}
+#imageData #numberDisplay {
+	padding-bottom: 1em; clear: left; display: block;
+}
+#imageData #lightbox2-node-link-text {
+	padding-bottom: 1em; display: block;
+}
+#imageData #bottomNav {
+	height: 66px;
+}
+.lightbox2-alt-layout #imageData #bottomNav {
+	margin-bottom: 60px;
+}
+.lightbox2-alt-layout-data #bottomNav {
+	margin-bottom: 60px;
+}
+#lightbox2-overlay {
+	left: 0px; top: 0px; width: 100%; height: 500px; position: absolute; z-index: 90; background-color: rgb(0, 0, 0);
+}
+#overlay_default {
+	opacity: 0.6;
+}
+#overlay_macff2 {
+	background: url("../images/overlay.png");
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+* html > body .clearfix {
+	width: 100%; display: inline;
+}
+* html .clearfix {
+	height: 1%;
+}
+#bottomNavClose {
+	background: url("../images/close.gif") no-repeat left; width: 26px; height: 26px; padding-top: 0.7em; margin-top: 33px; float: right; display: block;
+}
+#bottomNavClose:hover {
+	background-position: right;
+}
+#loadingLink {
+	background: url("../images/loading.gif") no-repeat; width: 32px; height: 32px; display: block;
+}
+#bottomNavZoom {
+	background: url("../images/expand.gif") no-repeat; left: 30px; width: 34px; height: 34px; float: right; display: none; position: relative;
+}
+#bottomNavZoomOut {
+	background: url("../images/contract.gif") no-repeat; left: 30px; width: 34px; height: 34px; float: right; display: none; position: relative;
+}
+#lightshowPlay {
+	background: url("../images/play.png") no-repeat; width: 20px; height: 20px; margin-top: 42px; margin-right: 5px; margin-bottom: 1px; float: right;
+}
+#lightshowPause {
+	background: url("../images/pause.png") no-repeat; width: 20px; height: 20px; margin-top: 42px; margin-right: 5px; margin-bottom: 1px; float: right;
+}
+.lightbox2-alt-layout-data #bottomNavClose {
+	margin-top: 93px;
+}
+.lightbox2-alt-layout #bottomNavClose {
+	margin-top: 93px;
+}
+.lightbox2-alt-layout-data #bottomNavZoom {
+	margin-top: 93px;
+}
+.lightbox2-alt-layout-data #bottomNavZoomOut {
+	margin-top: 93px;
+}
+.lightbox2-alt-layout #bottomNavZoom {
+	margin-top: 93px;
+}
+.lightbox2-alt-layout #bottomNavZoomOut {
+	margin-top: 93px;
+}
+.lightbox2-alt-layout-data #lightshowPlay {
+	margin-top: 102px;
+}
+.lightbox2-alt-layout-data #lightshowPause {
+	margin-top: 102px;
+}
+.lightbox2-alt-layout #lightshowPlay {
+	margin-top: 102px;
+}
+.lightbox2-alt-layout #lightshowPause {
+	margin-top: 102px;
+}
+.lightbox_hide_image {
+	display: none;
+}
+#lightboxImage {
+	-ms-interpolation-mode: bicubic;
+}

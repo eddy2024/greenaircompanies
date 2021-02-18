@@ -1,0 +1,124 @@
+/* content */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+#amazingcarousel-3 {	
+	position: relative;
+	padding: 0px;
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+#amazingcarousel-3 .amazingcarousel-image {	
+	position: relative;
+	padding: 0px;
+	width: 0px;
+	height:0px;
+	float: left;
+	margin-right:15px;
+}
+
+#amazingcarousel-3 .amazingcarousel-image img {
+	display: block;
+	width: 0px;
+	height:0px;
+	max-width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#amazingcarousel-3 .amazingcarousel-text {
+	width: 100%;
+	float: left;
+}
+
+#amazingcarousel-3 .amazingcarousel-title {
+	position:relative;
+	font-family: "Open Sans";
+	font-size:20px;
+	font-weight: 100;
+	color:#333333;
+	text-align: center;
+	line-height: 1.2;
+	height: 16px;
+	margin-bottom:5px;
+	width: 1000px;
+	background-color:;
+}
+#amazingcarousel-3 .amazingcarousel-title h2 {
+	font-weight: 500;
+	color:#333333;
+}
+
+#amazingcarousel-3 .amazingcarousel-description {
+	position:relative;
+	font: 15px  "Open Sans Light", sans-serif;
+	color:#333333;
+	margin-top:15px;
+	text-align: center;
+	line-height: 1.2;		
+	height: auto;
+	width: 1000px;
+	
+}
+
+/* carousel */
+
+#amazingcarousel-container-3 {
+	padding: 0px 0px; 
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#amazingcarousel-3 .amazingcarousel-list-container { 
+	padding: 0;
+	width: 1000px;
+}
+
+/* item */
+
+#amazingcarousel-3 .amazingcarousel-item-container {
+	text-align: center;
+	padding: 4px;
+	background-color:;
+
+}
+
+/* arrows */
+
+#amazingcarousel-3 .amazingcarousel-prev {
+
+	top: 100%;
+	margin-right: 32px;
+	margin-top: 8px;
+}
+
+#amazingcarousel-3 .amazingcarousel-next {
+
+	top: 100%;
+	margin-right: 0px;
+	margin-top: 8px;
+}
+
+/* navigation bullets */
+
+#amazingcarousel-3 .amazingcarousel-nav {
+	position: absolute;
+	top: 100%;
+	background-color: ;
+	width: 1000px;
+	height:20px;
+	margin-top: 25px;
+}
+
+#amazingcarousel-3 .amazingcarousel-bullet-wrapper {
+	margin-left:auto;
+	margin-right:auto;
+
+	
+}
+
+

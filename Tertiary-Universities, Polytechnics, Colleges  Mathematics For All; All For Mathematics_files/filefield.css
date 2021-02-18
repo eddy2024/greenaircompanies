@@ -1,0 +1,39 @@
+.filefield-icon {
+	margin: 0px 2px 0px 0px;
+}
+.filefield-element {
+	margin: 1em 0px; white-space: normal;
+}
+.filefield-element .widget-preview {
+	border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204); margin: 0px 10px 0px 0px; padding: 0px 10px 0px 0px; float: left; max-width: 30%;
+}
+.filefield-element .widget-edit {
+	float: left; max-width: 70%;
+}
+.filefield-element .filefield-preview {
+	width: 16em; overflow: hidden;
+}
+.filefield-element .widget-edit .form-item {
+	margin: 0px 0px 1em;
+}
+.filefield-element input.form-submit {
+	margin: 0px;
+}
+.filefield-element input.form-file {
+	margin: 0px;
+}
+.filefield-element input.progress-disabled {
+	float: none; display: inline;
+}
+.filefield-element div.ahah-progress {
+	padding: 1px 13px 2px 3px; float: none; display: inline;
+}
+.filefield-element div.throbber {
+	padding: 1px 13px 2px 3px; float: none; display: inline;
+}
+.filefield-element div.ahah-progress-bar {
+	padding: 0px; width: 28em; margin-top: 4px; display: none;
+}
+.filefield-element div.ahah-progress-bar div.bar {
+	margin: 0px;
+}

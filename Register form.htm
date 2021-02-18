@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+#nav{
+    line-height:30px;
+    background-color:#8A8A8A;
+    height:540px;
+    width:140px;
+    float:left;
+    padding:none
+    text-color:black;
+    font-size:10px;
+    font-family:none;
+}
+body{
+   background-color:#1D2C3F;
+   font-size:10px;
+   font-family:tahoma;
+   text-align:justify;
+}
+#header{
+    background-color: #787878;
+    color:White;
+    text-align:center;
+    padding:15px;
+    border:20px;
+   }
+
+h{
+  color:black;
+  font-size:11px
+}
+
+fieldset{
+      background-color:gray;
+      color:black;
+      font-size:none;
+      font-family:none;
+      margin:55px;
+}
+
+#footer{
+     background-color:none;
+     color:white;
+     clear:both;
+     text-align:center;
+     padding:5px;
+}
+h2{
+  text-align:center;
+  color:white;
+
+}
+
+</style>
+</head>
+
+<body >
+<fieldset>
+<fieldset>
+<div id="header">
+
+<h1>GREEN AIR DATABASE PROJECT<sup>&reg</sup></h1>
+<h> <i>**********A NATIONAL GRADUATES DATABASE SYSTEM**********</i></h>
+<fieldset>
+</fieldset>
+</div><br>
+<br><br>
+<h2 <b>REGISTRATION FORM</b></h2>
+
+<form>
+
+<fieldset>
+<legend>*<b>Personal information:</b></legend>
+Title:<br>
+<select name="title">
+<option value="mr">Mr.</option>
+<option value="mrs">Mrs.</option>
+<option value="dr">Dr.</option>
+<option value="prof">Prof.</option>
+<option value="other">Other</option>
+</select>
+<br>
+First name:<br>
+<input type="text" name="firstname">
+<br>
+Last name:<br>
+<input type="text" name="lastname" >
+<br>
+Date of birth:<br>
+<input type="date" name="bday"><br>
+Sex:<br>
+<input type="radio" name="sex" value="male">Male
+<br>
+<input type="radio" name="sex" value="female">Female
+<br>
+<hr>
+<legend>*<b>Mailing Details:</b></legend><br>
+Post Office Box:<br>
+<input type="text" name="postofficebox">
+<br>
+Town:<br>
+<input type="text" name="town" >
+<br>
+City:<br>
+<select name="city">
+<option value="select">Select</option>
+<option value="kumasi">Kumasi</option>
+<option value="sunyani">Sunyani</option>
+<option value="accra">Accra</option>
+<option value="cape coast">Cape Coast</option>
+<option value="koforidua">Koforidua</option>
+<option value="tamale">Tamale</option>
+<option value="sekondi-takoradi">Sekondi-Takoradi</option>
+<option value="bolgatanga">Bolgatanga</option>
+<option value="wa">Wa</option>
+<option value="ho">Ho</option>
+</select>
+<br>
+Region:<br>
+<select name="regions">
+<option value="select">Select</option>
+<option value="brongahafo">Brong Ahafo</option>
+<option value="greater accra">Greater Accra</option>
+<option value="central">Central</option>
+<option value="western">Western</option>
+<option value="volta">Volta</option>
+<option value="ashanti">Ashanti</option>
+<option value="eastern">Eastern</option>
+<option value="northern">Northern</option>
+<option value="upper-west">Upper West</option>
+<option value="uppereast">Upper East</option>
+<option value="volta">Volta</option>
+</select>
+<br>
+Country:<br>
+<select name="country">
+<option value="  " selected>(please select a country)
+<option value="AF">Afghanistan 
+<option value="AL">Albania 
+<option value="DZ">Algeria 
+<option value="AS">American Samoa
+<option value="AD">Andorra 
+<option value="AO">Angola
+<option value="AI">Anguilla
+<option value="AQ">Antarctica
+<option value="AG">Antigua and Barbuda 
+<option value="AR">Argentina 
+<option value="AM">Armenia 
+<option value="AW">Aruba 
+<option value="AU">Australia 
+<option value="AT">Austria 
+<option value="AZ">Azerbaijan
+<option value="BS">Bahamas 
+<option value="BH">Bahrain 
+<option value="BD">Bangladesh
+<option value="BB">Barbados
+<option value="BY">Belarus 
+<option value="BE">Belgium 
+<option value="BZ">Belize
+<option value="BJ">Benin 
+<option value="BM">Bermuda 
+<option value="BT">Bhutan
+<option value="BO">Bolivia 
+<option value="BA">Bosnia and Herzegowina
+<option value="BW">Botswana
+<option value="BV">Bouvet Island 
+<option value="BR">Brazil
+<option value="IO">British Indian Ocean Territory
+<option value="BN">Brunei Darussalam 
+<option value="BG">Bulgaria
+<option value="BF">Burkina Faso
+<option value="BI">Burundi 
+<option value="KH">Cambodia
+<option value="CM">Cameroon
+<option value="CA">Canada
+<option value="CV">Cape Verde
+<option value="KY">Cayman Islands
+<option value="CF">Central African Republic
+<option value="TD">Chad
+<option value="CL">Chile 
+<option value="CN">China 
+<option value="CX">Christmas Island
+<option value="CC">Cocos (Keeling) Islands 
+<option value="CO">Colombia
+<option value="KM">Comoros 
+<option value="CG">Congo 
+<option value="CD">Congo, the Democratic Republic of the 
+<option value="CK">Cook Islands
+<option value="CR">Costa Rica
+<option value="CI">Cote d'Ivoire 
+<option value="HR">Croatia (Hrvatska)
+<option value="CU">Cuba
+<option value="CY">Cyprus
+<option value="CZ">Czech Republic
+<option value="DK">Denmark 
+<option value="DJ">Djibouti
+<option value="DM">Dominica
+<option value="DO">Dominican Republic
+<option value="TP">East Timor
+<option value="EC">Ecuador 
+<option value="EG">Egypt 
+<option value="SV">El Salvador 
+<option value="GQ">Equatorial Guinea 
+<option value="ER">Eritrea 
+<option value="EE">Estonia 
+<option value="ET">Ethiopia
+<option value="FK">Falkland Islands (Malvinas) 
+<option value="FO">Faroe Islands 
+<option value="FJ">Fiji
+<option value="FI">Finland 
+<option value="FR">France
+<option value="FX">France, Metropolitan
+<option value="GF">French Guiana 
+<option value="PF">French Polynesia
+<option value="TF">French Southern Territories 
+<option value="GA">Gabon 
+<option value="GM">Gambia
+<option value="GE">Georgia 
+<option value="DE">Germany 
+<option value="GH">Ghana 
+<option value="GI">Gibraltar 
+<option value="GR">Greece
+<option value="GL">Greenland 
+<option value="GD">Grenada 
+<option value="GP">Guadeloupe
+<option value="GU">Guam
+<option value="GT">Guatemala 
+<option value="GN">Guinea
+<option value="GW">Guinea-Bissau 
+<option value="GY">Guyana
+<option value="HT">Haiti 
+<option value="HM">Heard and Mc Donald Islands 
+<option value="VA">Holy See (Vatican City State) 
+<option value="HN">Honduras
+<option value="HK">Hong Kong 
+<option value="HU">Hungary 
+<option value="IS">Iceland 
+<option value="IN">India 
+<option value="ID">Indonesia 
+<option value="IR">Iran (Islamic Republic of)
+<option value="IQ">Iraq
+<option value="IE">Ireland 
+<option value="IL">Israel
+<option value="IT">Italy 
+<option value="JM">Jamaica 
+<option value="JP">Japan 
+<option value="JO">Jordan
+<option value="KZ">Kazakhstan
+<option value="KE">Kenya 
+<option value="KI">Kiribati
+<option value="KP">Korea, Democratic People's Republic of
+<option value="KR">Korea, Republic of
+<option value="KW">Kuwait
+<option value="KG">Kyrgyzstan
+<option value="LA">Lao People's Democratic Republic
+<option value="LV">Latvia
+<option value="LB">Lebanon 
+<option value="LS">Lesotho 
+<option value="LR">Liberia 
+<option value="LY">Libyan Arab Jamahiriya
+<option value="LI">Liechtenstein 
+<option value="LT">Lithuania 
+<option value="LU">Luxembourg
+<option value="MO">Macau 
+<option value="MK">Macedonia, The Former Yugoslav Republic of
+<option value="MG">Madagascar
+<option value="MW">Malawi
+<option value="MY">Malaysia
+<option value="MV">Maldives
+<option value="ML">Mali
+<option value="MT">Malta 
+<option value="MH">Marshall Islands
+<option value="MQ">Martinique
+<option value="MR">Mauritania
+<option value="MU">Mauritius 
+<option value="YT">Mayotte 
+<option value="MX">Mexico
+<option value="FM">Micronesia, Federated States of 
+<option value="MD">Moldova, Republic of
+<option value="MC">Monaco
+<option value="MN">Mongolia
+<option value="MS">Montserrat
+<option value="MA">Morocco 
+<option value="MZ">Mozambique
+<option value="MM">Myanmar 
+<option value="NA">Namibia 
+<option value="NR">Nauru 
+<option value="NP">Nepal 
+<option value="NL">Netherlands 
+<option value="AN">Netherlands Antilles
+<option value="NC">New Caledonia 
+<option value="NZ">New Zealand 
+<option value="NI">Nicaragua 
+<option value="NE">Niger 
+<option value="NG">Nigeria 
+<option value="NU">Niue
+<option value="NF">Norfolk Island
+<option value="MP">Northern Mariana Islands
+<option value="NO">Norway
+<option value="OM">Oman
+<option value="PK">Pakistan
+<option value="PW">Palau 
+<option value="PA">Panama
+<option value="PG">Papua New Guinea
+<option value="PY">Paraguay
+<option value="PE">Peru
+<option value="PH">Philippines 
+<option value="PN">Pitcairn
+<option value="PL">Poland
+<option value="PT">Portugal
+<option value="PR">Puerto Rico 
+<option value="QA">Qatar 
+<option value="RE">Reunion 
+<option value="RO">Romania 
+<option value="RU">Russian Federation
+<option value="RW">Rwanda
+<option value="KN">Saint Kitts and Nevis 
+<option value="LC">Saint LUCIA 
+<option value="VC">Saint Vincent and the Grenadines
+<option value="WS">Samoa 
+<option value="SM">San Marino
+<option value="ST">Sao Tome and Principe 
+<option value="SA">Saudi Arabia
+<option value="SN">Senegal 
+<option value="SC">Seychelles
+<option value="SL">Sierra Leone
+<option value="SG">Singapore 
+<option value="SK">Slovakia (Slovak Republic)
+<option value="SI">Slovenia
+<option value="SB">Solomon Islands 
+<option value="SO">Somalia 
+<option value="ZA">South Africa
+<option value="GS">South Georgia and the South Sandwich Islands
+<option value="ES">Spain 
+<option value="LK">Sri Lanka 
+<option value="SH">St. Helena
+<option value="PM">St. Pierre and Miquelon 
+<option value="SD">Sudan 
+<option value="SR">Suriname
+<option value="SJ">Svalbard and Jan Mayen Islands
+<option value="SZ">Swaziland 
+<option value="SE">Sweden
+<option value="CH">Switzerland 
+<option value="SY">Syrian Arab Republic
+<option value="TW">Taiwan, Province of China 
+<option value="TJ">Tajikistan
+<option value="TZ">Tanzania, United Republic of
+<option value="TH">Thailand
+<option value="TG">Togo
+<option value="TK">Tokelau 
+<option value="TO">Tonga 
+<option value="TT">Trinidad and Tobago 
+<option value="TN">Tunisia 
+<option value="TR">Turkey
+<option value="TM">Turkmenistan
+<option value="TC">Turks and Caicos Islands
+<option value="TV">Tuvalu
+<option value="UG">Uganda
+<option value="UA">Ukraine 
+<option value="AE">United Arab Emirates
+<option value="GB">United Kingdom
+<option value="US">United States 
+<option value="UM">United States Minor Outlying Islands
+<option value="UY">Uruguay 
+<option value="UZ">Uzbekistan
+<option value="VU">Vanuatu 
+<option value="VE">Venezuela 
+<option value="VN">Viet Nam
+<option value="VG">Virgin Islands (British)
+<option value="VI">Virgin Islands (U.S.) 
+<option value="WF">Wallis and Futuna Islands 
+<option value="EH">Western Sahara
+<option value="YE">Yemen 
+<option value="YU">Yugoslavia
+<option value="ZM">Zambia
+<option value="ZW">Zimbabwe
+</select>
+<br>
+Mobile Phone:<br>
+<input type="text" name="phone">
+<br>
+Home Phone:<br>
+<input type="text" name="home">
+<br>
+<hr>
+<legend>*<b>Educational Details:</b></legend><br>
+Institution:<br>
+
+<select name="institution">
+<option value="select">Select</option>
+<option value="accra polytechnic">Accra Polytechnic</option>
+<option value="ho polytechnic">Ho Polytechnic</option>
+<option value="koforidua polytechnic">Koforidua Polytechnic</option>
+<option value="kumasi polytechnic">Kumasi Polytechnic</option>
+<option value="takoradi polytechnic">Takoradi Polytechnic</option>
+<option value="cape coast polytechnic">Cape Coast Polytechnic</option>
+<option value="sunyani polytechnic">Sunyani Polytechnic</option>
+<option value="bolgatanga polytechnic">Bolgatanga Polytechnic</option>
+<option value="wa polytechnic">Wa Polytechnic</option>
+<option value="tamale polytechnic">Tamale Polytechnic</option>
+<option value="archbishop porter's polytechnic">Archbishop Porter's Polytechnic</option>
+</select>
+<br>
+Course Taken:<br>
+<input type="text" name="course taken" >
+<br>
+Major Subject:<br>
+<input type="text" name="major subject" >
+<br>
+Minor Subject:<br>
+<input type="text" name="minor subject" >
+<br>
+Date of Completion:<br>
+<input type="date" name="bday"><br>
+
+Certificate Awarded:<br>
+<select name="certificate awarded">
+<option value="select">Select</option>
+<option value="cerificate">Certificate</option>
+<option value="diploma">Diploma</option>
+<option value="postgraduate diploma">Post Graduate Diploma</option>
+<option value="bachelor">Bachelor</option>
+<option value="masters">Masters (MSc)</option>
+<option value="masters">Masters (MPhil)</option>
+<option value="masters">Masters (MCA)</option>
+<option value="masters">Masters (MEng)</option>
+<option value="doctorate">Doctor of Philosophy (PhD)</option>
+</select>
+<br>
+
+Class Awarded:<br>
+<select name="class awarded">
+<option value="select">Select</option>
+<option value="first-class honours">First-class honours</option>
+<option value="upper second-class honours">Upper second-class honours</option>
+<option value="lower second-class honours">Lower second-class honours</option>
+<option value="third-class honours">Third-class honours</option>
+<option value="distinction">Distinction</option>
+</select>
+<br>
+<hr>
+*<b>Internship:</b><br>
+<br>
+Date started National Service:<br>
+<input type="date" name="bday"><br>
+Date Completed National Service:<br>
+<input type="date" name="bday"><br>
+Date of registration:<br>
+<input type="date" name="bday"><br>
+
+<br>
+<html><a href="page1.htm"> Previous</a></html>	   |   
+<html><a href="page2.htm">Next</a></html><br><br>
+<input type="submit" value="Submit">
+
+</fieldset>
+</form>
+
+
+<div id="footer">
+Copyright © 2015 | Green Air National Graduate Database System  
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+#forum .description {
+	margin: 0.5em; font-size: 0.9em;
+}
+#forum td.created {
+	white-space: nowrap;
+}
+#forum td.posts {
+	white-space: nowrap;
+}
+#forum td.topics {
+	white-space: nowrap;
+}
+#forum td.last-reply {
+	white-space: nowrap;
+}
+#forum td.replies {
+	white-space: nowrap;
+}
+#forum td.pager {
+	white-space: nowrap;
+}
+#forum td.posts {
+	text-align: center;
+}
+#forum td.topics {
+	text-align: center;
+}
+#forum td.replies {
+	text-align: center;
+}
+#forum td.pager {
+	text-align: center;
+}
+#forum tr td.forum {
+	background-position: 2px 2px; padding-left: 25px; background-image: url("../../misc/forum-default.png"); background-repeat: no-repeat;
+}
+#forum tr.new-topics td.forum {
+	background-image: url("../../misc/forum-new.png");
+}
+#forum div.indent {
+	margin-left: 20px;
+}
+.forum-topic-navigation {
+	padding: 0.5em; text-align: center; border-top-color: rgb(136, 136, 136); border-bottom-color: rgb(136, 136, 136); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.forum-topic-navigation .topic-previous {
+	width: 46%; text-align: right; float: left;
+}
+.forum-topic-navigation .topic-next {
+	width: 46%; text-align: left; float: right;
+}

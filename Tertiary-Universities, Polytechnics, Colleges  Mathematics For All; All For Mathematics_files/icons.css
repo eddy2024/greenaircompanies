@@ -1,0 +1,201 @@
+div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-blog div.block-icon {
+	background: url("icons/tnt_icon_01.png") no-repeat left;
+}
+#block-blog-0 div.block-icon {
+	background: url("icons/tnt_icon_02.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last #block-blog-0 h2.block-title {
+	background: url("icons/tnt_icon_02.png") no-repeat left;
+}
+#block-book-0 div.block-icon {
+	background: url("icons/tnt_icon_07.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last #block-book-0 h2.block-title {
+	background: url("icons/tnt_icon_07.png") no-repeat left;
+}
+div.block-comment div.block-icon {
+	background: url("icons/tnt_icon_01.png") no-repeat left;
+}
+div.comments-block-icon {
+	background: url("icons/tnt_icon_01.png") no-repeat left;
+}
+#block-views-comments_recent-block div.block-icon {
+	background: url("icons/tnt_icon_01.png") no-repeat left;
+}
+div.block-forum div.block-icon {
+	background: url("icons/tnt_icon_06.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last div.block-comment h2.block-title {
+	background: url("icons/tnt_icon_06.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last div.block-forum h2.block-title {
+	background: url("icons/tnt_icon_06.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last #block-views-comments_recent-block h2.block-title {
+	background: url("icons/tnt_icon_06.png") no-repeat left;
+}
+#block-menu-devel div.block-icon {
+	background: url("icons/tnt_icon_12.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last #block-menu-devel h2.block-title {
+	background: url("icons/tnt_icon_12.png") no-repeat left;
+}
+div.block-menu div.block-icon {
+	background: url("icons/tnt_icon_13.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last div.block-menu h2.block-title {
+	background: url("icons/tnt_icon_13.png") no-repeat left;
+}
+div.block-search div.block-icon {
+	background: url("icons/tnt_icon_15.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last div.block-search h2.block-title {
+	background: url("icons/tnt_icon_15.png") no-repeat left;
+}
+div.block-search h2.block-title {
+	padding-left: 3.12em;
+}
+div.block-user div.block-icon {
+	background: url("icons/tnt_icon_08.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last div.block-user h2.block-title {
+	background: url("icons/tnt_icon_08.png") no-repeat left;
+}
+#block-user-0 div.block-icon {
+	background: url("icons/tnt_icon_14.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last #block-user-0 h2.block-title {
+	background: url("icons/tnt_icon_14.png") no-repeat left;
+}
+#block-views-archive-block div.block-icon {
+	background: url("icons/tnt_icon_07.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last #block-views-archive-block h2.block-title {
+	background: url("icons/tnt_icon_07.png") no-repeat left;
+}
+#block-tagadelic-2 div.block-icon {
+	background: url("icons/tnt_icon_00.png") no-repeat left;
+}
+body.layout-main-last #sidebar-last div.block-tagadelic h2.block-title {
+	background: url("icons/tnt_icon_00.png") no-repeat left;
+}
+div.block-blog div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-comment div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-forum div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-search div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-menu div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.comments-block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-user div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+div.block-tagadelic div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#block-blog-0 div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#block-book-0 div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#block-menu-devel div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#block-user-0 div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#block-views-archive-block div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#block-views-comments_recent-block div.block-icon #block-tagadelic-2 div.block-icon {
+	left: 0px; top: -0.66em; width: 48px; height: 48px; position: absolute;
+}
+#preface-wrapper div.block div.block-icon {
+	background: none;
+}
+body.layout-main-last #sidebar-last div.block div.block-icon {
+	background: none;
+}
+#footer div.block div.block-icon {
+	background: none;
+}
+body.layout-main-last #sidebar-last #block-blog-0 h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last #block-book-0 h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last div.block-comment h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last #block-menu-devel h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last div.block-forum h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last div.block-menu h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last div.block-search h2.block-title {
+	background-position: left -1px; margin: 0px 0px 4px;
+}
+body.layout-main-last #sidebar-last div.block-user h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last #block-user-0 h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last #block-views-archive-block h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last #block-views-comments_recent-block h2.block-title {
+	background-position: left -1px;
+}
+body.layout-main-last #sidebar-last #block-blog-0 h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last #block-book-0 h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last div.block-comment h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last div.block-forum h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last div.block-menu h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last #block-menu-devel h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last div.block-search h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last div.block-user h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last #block-user-0 h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last #block-views-archive-block h2.block-title {
+	padding: 12px 0px 0px 52px;
+}
+body.layout-main-last #sidebar-last #block-views-comments_recent-block h2.block-title {
+	padding: 12px 0px 0px 52px;
+}

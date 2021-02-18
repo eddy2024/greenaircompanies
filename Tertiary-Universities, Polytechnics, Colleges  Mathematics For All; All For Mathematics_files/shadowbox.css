@@ -1,0 +1,12 @@
+#shadowbox-settings-test {
+	margin-bottom: 20px;
+}
+#shadowbox-settings-test a {
+	padding: 1em; border: 1px solid rgb(47, 47, 51); border-image: none; text-align: center; color: rgb(47, 47, 51); display: block; background-color: rgb(240, 240, 240);
+}
+#shadowbox-settings-test a:hover {
+	background-color: rgb(217, 227, 251);
+}
+#shadowbox-global-settings .multicolumncheckboxesradios-column {
+	width: 5em;
+}

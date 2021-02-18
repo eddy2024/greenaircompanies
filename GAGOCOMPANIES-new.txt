@@ -1,0 +1,134 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header{
+    background-color:#787878;
+    color:green;
+    text-align:center;
+    padding:15px;
+    border:20px;
+    position:fixed;
+}
+
+h{
+  color:black;
+font-size:11px
+}
+
+#nav{
+    line-height:30px;
+    background-color:gray;
+    height:540px;
+    width:140px;
+    float:left;
+    padding:none
+    text-color:black;
+    font-size:10px;
+    font-family:none;
+}
+#footer{
+     background-color:none;
+     color:white;
+     clear:both;
+     text-align:center;
+     padding:5px;
+     font-size:11px;
+}
+body{
+    background-color:#1D2C3F;
+    color:none;
+    text-align:justify;
+    padding:none;
+    margin:0px;
+
+}
+ 
+#para{
+   text-color:none;
+
+
+
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<fieldset>
+<h1>GREEN AIR GROUP OF COMPANIES<sup>&reg</sup></h1>
+<h color: black><i><b>**********A TRUSTED COMPANY WITH YOU IN MIND**********</b></i></h>
+<fieldset>
+</div>
+
+<div id="nav" style="text-color:black">
+
+Green Air Graduates Database<br>
+<html><a href="loginscreen.htm" target="_blank">Graduate Data</a><html>
+<br><br>
+<hr>
+
+Green Air IT Training<br> 
+<html><a href="greenairit.htm" target ="_blank">IT Training Center</a><html>
+<br><br>
+<hr>
+
+Green Air Alluvial Mining <br>
+<html><a href="greenairmining.htm"  target="_blank">Alluvial Mining Consultancy</a></html>
+<br><br>
+<hr>
+Green Air Real Estates Developers<br>
+<html><a href="greenairrealestates.htm" target="_blank">Real Estates</a></html>
+<br><br>
+<hr>
+Useful Links<br>
+<a href="http://kitco.com" target="_blank">Gold Prices</a><br>
+<a href="http://forbes.com" target="_blank">Learn from Forbes</a><br>
+
+</div>
+
+<h1 style="font-size:20px" "text-color:#1D2C3F">Green Air Graduates Database</h1>
+
+
+<div id="para">
+<p>Welcome to the National Database System which is designed to freely allow graduates from Polytechnics and Universities to register after completion of program.</p>
+
+<p> All members will be informed of jobs vacancies through their emails and prepared for interview sessions free of charge. When successfully employed you should update your status on the system to assit us gather data on graduates employment statistics within a year comparing to the numbers that registered. </p>
+
+<h2 style="font-size:20px">Green Air IT Training Center</h2>
+
+<p style="font-size:15px">Welcome to workable IT Certification training that will make you 
+stand out in these times of economic transition.</p>
+<p style="font-size:15px">We will introduce you to certifications like Cisco, Microsoft, ISACA
+ICS2, ITIL, Wireless and CompTIA to mention a few. The list is endless and we have what it takes
+to get you to your destination.We have made a research of lifetime  certifications that will give
+you satisfaction and build your confidence.</p>
+
+<h3 style="font-size:20px">Green Air Alluvial Mining Consultants</h3>
+
+<p style="font-size:15px">Welcome to a group of experienced Mineral Engineers with rich background in alluvial mining.
+We know the flax - mix to give a good smelt.We know what is real and pure gold.
+Aspiring buyers of bullion and gold can trust us with the information to save them from being duped 
+and losing your investment.  
+</p>
+
+<h4 style="font-size:20px" >Green Air Real Estates Developers</h4>
+<p style="font-size:15px">Welcome to a happy life on earth where you live and enjoy a peaceful residential environment.
+Our real estates developers will give you the housing and architectural plan you desire for your family. Come talk to us and we can
+assist you build your dream house. Trust us for affordabel housing plan that suit your finances.</p>
+</div>
+
+<div id="footer">
+Copyright © 2015 | Green Air Group of Companies - GAGC Ghana. All Rights Reserved | Email: info@greenairgroup.com | Tel: +233-(0)24 4646 214; (0)24 4652 719 
+</div>  
+
+</div>
+
+</body>
+</html>

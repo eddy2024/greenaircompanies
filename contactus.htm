@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+  #nav{
+    line-height:30px;
+    background-color:#8A8A8A;
+    height:540px;
+    width:140px;
+    float:left;
+    padding:none
+    text-color:black;
+    font-size:10px;
+    font-family:none;  
+}
+body{
+   background-color:#1D2C3F;
+   font-size:10px;
+   font-family:tahoma;
+   text-align:justify;
+   margin:0px;
+}
+#header{
+    background-color: #787878;
+    color:White;
+    text-align:center;
+    padding:15px;
+    border:20px;
+   }
+
+h{
+  color:black;
+  font-size:11px
+}
+
+fieldset{
+      background-color:gray;
+      color:black;
+      font-size:none;
+      font-family:none;
+      margin:20px;
+}
+
+#footer{
+     background-color:none;
+     color:white;
+     clear:both;
+     text-align:center;
+     padding:5px;
+}
+h2{
+  text-align:center;
+  color:white;
+
+}
+
+</style>
+</head>
+
+<body >
+
+<div id="header">
+<fieldset>
+<h1>GREEN AIR DATABASE PROJECT<sup>&reg</sup></h1>
+<h> <i>**********A NATIONAL GRADUATES DATABASE SYSTEM**********</i></h>
+<fieldset>
+</div><br>
+<br><br>
+<h2 <b>REGISTRATION FORM</b></h2>
+
+<?php
+// define variables and set to empty values
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+   $name = test_input($_POST["name"]);
+   $email = test_input($_POST["email"]);
+   $website = test_input($_POST["website"]);
+   $comment = test_input($_POST["comment"]);
+   $gender = test_input($_POST["gender"]);
+   $name = test_input($_POST["name"]);
+   $email = test_input($_POST["email"]);
+   $website = test_input($_POST["website"]);
+   $comment = test_input($_POST["comment"]);
+   $gender = test_input($_POST["gender"]);
+}
+
+function test_input($data) {
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
+?>
+
+
+
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<fieldset>
+<legend>*<b>Personal information:</b></legend>
+Title:<br>
+<select name="title" required>
+<option value="mr">Mr.</option>
+<option value="mrs">Mrs.</option>
+<option value="dr">Dr.</option>
+<option value="prof">Prof.</option>
+<option value="other">Other</option>
+</select>
+<br>
+First name:<br>
+<input type="text" name="firstname" required>
+<br>
+Middle name:<br>
+<input type="text" name="middlename">
+<br>
+Last name:<br>
+<input type="text" name="lastname" required>
+<br>
+Date of birth:<br>
+<input type="date" name="bday" required><br>
+Sex:<br>
+<input type="radio" name="sex" value="male" required>Male
+<br>
+<input type="radio" name="sex" value="female">Female
+<br>
+<hr>
+<legend>*<b>Mailing Details:</b></legend><br>
+Post Office Box:<br>
+<input type="text" name="postofficebox">
+<br>
+Town:<br>
+<input type="text" name="town" >
+<br>
+City:<br>
+<select name="city" required>
+<option value="select">Select</option>
+<option value="kumasi">Kumasi</option>
+<option value="sunyani">Sunyani</option>
+<option value="accra">Accra</option>
+<option value="cape coast">Cape Coast</option>
+<option value="koforidua">Koforidua</option>
+<option value="tamale">Tamale</option>
+<option value="sekondi-takoradi">Sekondi-Takoradi</option>
+<option value="bolgatanga">Bolgatanga</option>
+<option value="wa">Wa</option>
+<option value="ho">Ho</option>
+</select>
+<br>
+Region:<br>
+<select name="regions" required>
+<option value="select">Select</option>
+<option value="brongahafo">Brong Ahafo</option>
+<option value="greater accra">Greater Accra</option>
+<option value="central">Central</option>
+<option value="western">Western</option>
+<option value="volta">Volta</option>
+<option value="ashanti">Ashanti</option>
+<option value="eastern">Eastern</option>
+<option value="northern">Northern</option>
+<option value="upper-west">Upper West</option>
+<option value="uppereast">Upper East</option>
+<option value="volta">Volta</option>
+</select>
+<br>
+Country:<br>
+<select name="country" required>
+<option value="  " selected>(please select a country)
+<option value="GH">Ghana 
+
+</select>
+<br>
+Mobile Phone:<br>
+<input type="text" name="phone" required>
+<br>
+Home Phone:<br>
+<input type="text" name="home" disabled>
+<br>
+
+<label for="usermail">Email</label><br>
+<input type="email" name="usermail" placeholder="yourname@email.com" required><br>
+ <label for="password">Password</label><br>
+        <input type="password" name="password"  size="15" maxlength="128" placeholder="password" required><br>
+ 
+<hr>
+<legend>*<b>Educational Details:</b></legend><br>
+Institution:<br>
+
+<select name="institution" required>
+<option value="select">Select</option>
+<option value="accra polytechnic">Accra Polytechnic</option>
+<option value="ho polytechnic">Ho Polytechnic</option>
+<option value="koforidua polytechnic">Koforidua Polytechnic</option>
+<option value="kumasi polytechnic">Kumasi Polytechnic</option>
+<option value="takoradi polytechnic">Takoradi Polytechnic</option>
+<option value="cape coast polytechnic">Cape Coast Polytechnic</option>
+<option value="sunyani polytechnic">Sunyani Polytechnic</option>
+<option value="bolgatanga polytechnic">Bolgatanga Polytechnic</option>
+<option value="wa polytechnic">Wa Polytechnic</option>
+<option value="tamale polytechnic">Tamale Polytechnic</option>
+<option value="archbishop porter's polytechnic">Archbishop Porter's Polytechnic</option>
+<option value="legon">University of Ghana</option>
+<option value="knust">Kwame Nkrumah University of Science and Technology</option>
+<option value="capvas">University of Cape Coast</option>
+<option value="winneba">University of Education, Winneba</option>
+<option value="tamale">University of Development Studies</option>
+<option value="umat">University of Mines and Technology</option>
+<option value="gimpa">Ghana Institute of Management and Public Administration</option>
+<option value="maritime">Regional Maritime University</option>
+<option value="oyibi">Valley View University</option>
+<option value="african">African University College of Communication</option>
+<option value="catholic">Catholic University College of Ghana</option>
+<option value="catholic">Christian Service University College</option>
+
+</select>
+<br>
+Course Taken:<br>
+<input type="text" name="course taken" required>
+<br>
+Major Subject:<br>
+<input type="text" name="major subject" required>
+<br>
+Minor Subject:<br>
+<input type="text" name="minor subject" required>
+<br>
+Date of Completion:<br>
+<input type="date" name="bday" required><br>
+
+Certificate Awarded:<br>
+<select name="certificate awarded" required>
+<option value="select">Select</option>
+<option value="cerificate">Certificate</option>
+<option value="diploma">Diploma</option>
+<option value="postgraduate diploma">Post Graduate Diploma</option>
+<option value="bachelor">Bachelor BBA</option>
+<option value="bachelor">Bachelor BSc</option>
+<option value="masters">Masters (MSc)</option>
+<option value="masters">Masters (MPhil)</option>
+<option value="masters">Masters (MCA)</option>
+<option value="masters">Masters (MEng)</option>
+<option value="doctorate">Doctor of Philosophy (PhD)</option>
+</select>
+<br>
+
+Class Awarded:<br>
+<select name="class awarded" required>
+<option value="select">Select</option>
+<option value="first-class honours">First-class honours</option>
+<option value="upper second-class honours">Upper second-class honours</option>
+<option value="lower second-class honours">Lower second-class honours</option>
+<option value="third-class honours">Third-class honours</option>
+<option value="distinction">Distinction</option>
+</select>
+<br>
+<hr>
+*<b>Internship:</b><br>
+<br>
+Date started National Service:<br>
+<input type="date" name="bday" required><br>
+Date Completed National Service:<br>
+<input type="date" name="bday" required><br>
+
+Where  did you do your service?<br>
+<input type="place" name="text" required><br>
+
+In which institution do you dream of working?<br>
+<input type="radio" name="place" value="private" required>Private
+<br>
+<input type="radio" name="place" value="government">Government
+<br>
+
+Date of registration:<br>
+<input type="date" name="bday" required><br>
+
+<br>
+Comments<br>
+Comments: <textarea name="comment" rows="5" cols="40"></textarea>
+
+<html><a href="page1.htm"> Previous</a></html>	   |   
+<html><a href="page2.htm">Next</a></html><br><br>
+<input type="submit" value="Submit">
+
+</fieldset>
+</form>
+
+
+<div id="footer">
+Copyright © 2015 | Green Air National Graduate Database System  
+</div>
+
+</body>
+</html>
+

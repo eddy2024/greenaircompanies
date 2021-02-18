@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body{
+   background-color:#ff5a00;
+   font-size:10px;
+   font-family:tahoma;
+   text-align:center;
+
+}
+#header{
+    background-color:LightSkyBlue;
+    color:green;
+    text-align:center;
+    padding:15px;
+    border:20px;
+}
+
+h{
+  color:black;
+  font-size:11px
+}
+
+form{
+   border:none;
+    
+}
+#footer{
+     background-color:#787878;
+     color:white;
+     clear:both;
+     text-align:center;
+     padding:5px;
+}
+</style>
+</head>
+
+<body >
+
+<div id="header">
+<h1>GREEN AIR GRADUATES DATABASE</h1>
+<h style="text-color:black"><i>***************A NATIONAL DATABASE TO ASSIST IN THE CREATION OF JOBS FOR ECONOMIC GROWTH***************</i></h>
+</div>
+
+<br>
+<br><br><br><br><br>
+
+<form>
+<fieldset>
+LOGIN SCREEN<br>
+<br>
+Create User ID:<br>
+<input type="text" name="userid">
+<br><br>
+Password:<br>
+<input type="text" name="password" >
+<br>
+
+
+<br><br>
+<input type="submit" value="Submit">
+</fieldset>
+
+
+</form>
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br>
+
+<div id="footer">
+Copyright &#169 2015 | Green Air Graduate Database | Privacy  
+</body>
+</html>

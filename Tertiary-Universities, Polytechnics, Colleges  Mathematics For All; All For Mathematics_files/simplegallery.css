@@ -1,0 +1,21 @@
+.simplegallery-term {
+	float: left;
+}
+.simplegallery-showlink {
+	float: right;
+}
+.simplegallery-teaserimages {
+	width: 100%;
+}
+.simplegallery-teaserimages img {
+	padding: 0.3em;
+}
+.simplegallery-table {
+	width: 100%;
+}
+.simplegallery-table tr td {
+	padding: 0px; width: 175px; text-align: center; font-size: 0.7em; font-weight: bold; vertical-align: top;
+}
+.simplegallery-table tr.even {
+	background-color: rgb(237, 237, 237);
+}

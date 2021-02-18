@@ -1,0 +1,18 @@
+.fast-gallery-image {
+	width: 155px; height: 155px; text-align: center; float: left;
+}
+.fast-gallery-image a:link {
+	text-decoration: none;
+}
+.fast-gallery-image a:visited {
+	text-decoration: none;
+}
+.fast-gallery-image a:hover {
+	text-decoration: none;
+}
+.fast-gallery-image a:hover img {
+	border: solid black; border-image: none;
+}
+#fg_breadcrumb {
+	margin-bottom: 10px;
+}

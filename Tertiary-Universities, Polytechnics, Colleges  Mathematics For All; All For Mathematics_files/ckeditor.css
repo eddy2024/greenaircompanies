@@ -1,0 +1,90 @@
+.rteindent1 {
+	margin-left: 40px;
+}
+.rteindent2 {
+	margin-left: 80px;
+}
+.rteindent3 {
+	margin-left: 120px;
+}
+.rteindent4 {
+	margin-left: 160px;
+}
+.rteleft {
+	text-align: left;
+}
+.rteright {
+	text-align: right;
+}
+.rtecenter {
+	text-align: center;
+}
+.rtejustify {
+	text-align: justify;
+}
+.ibimage_left {
+	float: left;
+}
+.ibimage_right {
+	float: right;
+}
+table.cke_editor fieldset {
+	padding: 0px !important;
+}
+.cke_editor {
+	display: table !important;
+}
+.cke_editor {
+	display: inline-table !important;
+}
+#ie {
+	display: inline-table !important;
+}
+.cke_panel_listItem {
+	padding-left: 0px; background-image: none;
+}
+tbody {
+	border: 0px currentColor; border-image: none;
+}
+#edit-toolbar {
+	display: none;
+}
+#edit-toolbar + .grippie {
+	display: none;
+}
+div.sortableList {
+	cursor: n-resize;
+}
+div.widthMarker {
+	margin: 10px 0px 0px 1px; height: 20px; text-align: center; padding-left: 1px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dashed;
+}
+div.group.sortableList {
+	margin: 20px 0px 0px;
+}
+div.sortableList div.sortableListDiv {
+	width: 900px; height: 30px; margin-bottom: 3px;
+}
+div.sortableList div.sortableListDiv span.sortableListSpan {
+	height: 30px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: dashed; display: block; background-color: rgb(240, 240, 238);
+}
+div.sortableList div.sortableListDiv span.sortableListSpan ul {
+	background: none; list-style: none; margin: 0px; padding: 0px 0px 0px 1px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 900px; height: 30px; white-space: nowrap;
+}
+div.sortableList div.sortableListDiv span.sortableListSpan ul li {
+	background: none; list-style: none; padding: 2px; height: 18px; cursor: move; min-width: 18px;
+}
+div.sortableList div.sortableListDiv span.sortableListSpan ul li.group {
+	padding-left: 2px; min-width: 5px;
+}
+div.sortableList div.sortableListDiv span.sortableListSpan ul li img {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+li.sortableItem {
+	margin: 3px 1px 1px 0px; border: 1px solid rgb(204, 204, 204); border-image: none; float: left; position: relative; z-index: 99; background-color: rgb(240, 240, 238); disc-type: none;
+}
+fieldset#edit-appearance div#groupLayout {
+	margin: 1em 0px; padding: 0px; border: 0px currentColor; border-image: none; overflow: auto;
+}
+div#allButtons {
+	margin: 1em 0px; padding: 0px; border: 0px currentColor; border-image: none; overflow: auto;
+}

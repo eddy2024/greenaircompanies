@@ -1,0 +1,12 @@
+JOBS LEFT TO BE COMPLETED
+
+1. Complete designing of IT website
+2. Complete designing of Mining website
+3. Complete designing of Real Estate website
+4. Continue with designing of Database project
+   - complete with the registration form
+   - add the rest of institutions
+   - add the courses, minor, and major
+   - link page to the mysql database so forms can be processed and data can be      stored.  
+   - the login screen and password reset screen must be linked to the database      so data entered into the forms can be stored.
+   - link 
